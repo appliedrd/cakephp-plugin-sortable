@@ -136,10 +136,11 @@ class SortableBehavior extends Behavior
         $conn = $table->getConnection();
         $conn->begin();
 
+        $new_order_int = (int) $new_order ;
         if ($new_order > $current_order) {
-            $this->_up($new_order, $current_order, $entity);
+            $this->_up($new_order_int, $current_order, $entity);
         } else {
-            $this->_down($new_order, $current_order, $entity);
+            $this->_down($new_order_int, $current_order, $entity);
         }
         $table->save($entity);
 

@@ -1,6 +1,6 @@
 {
   "name": "oppara/cakephp-plugin-sortable",
-  "description": "CakePHP plugin that mainly for jQuery UI Sortable ",
+  "description": "Fork of oppara CakePHP plugin for jQuery UI Sortable ",
   "type": "cakephp-plugin",
   "keywords": [
     "cakephp",
@@ -8,17 +8,17 @@
     "jqueryui",
     "jquery"
   ],
-  "homepage": "https://github.com/oppara/cakephp-plugin-sortable",
+  "homepage": "https://github.com/appliedrd/cakephp-plugin-sortable",
   "license": "MIT",
   "authors": [
     {
-      "name": "oppara",
-      "email": "oppara@oppara.tv"
+      "name": "appliedrd",
+      "email": "ted@appliedrd.com"
     }
   ],
   "support": {
      "issues": "https://github.com/oppara/cakephp-plugin-sortable/issues",
-     "source": "https://github.com/oppara/cakephp-plugin-sortable"
+     "source": "https://github.com/appliedrd/cakephp-plugin-sortable"
   },
   "require": {
     "cakephp/cakephp": "^3.4"
